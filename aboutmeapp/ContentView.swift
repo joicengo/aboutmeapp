@@ -5,13 +5,13 @@
 //  Created by Kevin Ngo on 7/27/23.
 //
 
+//hey whats up github
 import SwiftUI
 
 import UIKit
 
 struct ContentView: View {
     @State private var name = ""
-    @State private var textTitle = "What is your name?"
     
     var body: some View {
         ZStack {
@@ -20,7 +20,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack(alignment: .center) {
-                Text("Joice Ngo")
+                Text("Joice Ngo + hi!")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
